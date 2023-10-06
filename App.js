@@ -3,7 +3,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './screens/HomeScreen';
 import StatisticsScreen from './screens/StatisticsScreen';
-import AddActivityScreen from './screens/AddActivityScreen';
 import SettingsScreen from './screens/SettingsScreen';
 import AddHabitScreen from './screens/AddHabitScreen';
 import Header from './components/Header';
@@ -110,11 +109,6 @@ export default function App() {
             name="Home"
             component={HomeScreenComponent}
             options={{ headerShown: false }}
-          />
-          <Stack.Screen name="AddActivity" component={AddActivityScreen} />
-          <Stack.Screen
-            name="Statistics"
-            component={StatisticsScreenComponent}
           />
           <Stack.Screen name="Settings" component={SettingsScreen} />
           <Stack.Screen
