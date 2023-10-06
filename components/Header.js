@@ -81,7 +81,6 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1, 
     borderColor: '#246c5a', 
     backgroundColor: 'white',
-    marginTop: 30,
   },
   headerText: {
     color: '#246c5a',
